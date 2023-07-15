@@ -1,7 +1,7 @@
 from pushbullet import Pushbullet
 def push():
-    pb = Pushbullet("o.tRVSrkyXbeyuBg3kyhwb7vvYt1EQTEN9")
-    dev = pb.get_device('OnePlus AC2001')
+    pb = Pushbullet("Your API here")
+    dev = pb.get_device('Your Device Here')
     push = dev.push_note("Alert!!", "someone is Knockin the Door")
 
 def buzz():
