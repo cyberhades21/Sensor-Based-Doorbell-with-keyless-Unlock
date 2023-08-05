@@ -26,10 +26,10 @@ All of this runs on a Raspberry Pi Zero 2 W
 
 ### Notification Setup
 
-    - Create an account in pushbullet and get their API for python
-    - install Pushbullet in your desired Mobile Device and get the Device name
-    - Install pushbullet library in python using ```pip install pushbullet.py==0.9.1```
-    - edit the file ```Pi\notifications\__init__.py``` and replace the ```Your API here``` with your API key and ```Your Device here ``` with your device name
+- Create an account in pushbullet and get their API for python
+- install Pushbullet in your desired Mobile Device and get the Device name
+- Install pushbullet library in python using ```pip install pushbullet.py==0.9.1```
+- edit the file ```Pi\notifications\__init__.py``` and replace the ```Your API here``` with your API key and ```Your Device here``` with your device name
 
 ## Unlocking Door
 
