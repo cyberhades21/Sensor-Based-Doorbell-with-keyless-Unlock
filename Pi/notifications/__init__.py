@@ -3,7 +3,6 @@ def push():
     pb = Pushbullet("Your API here")
     dev = pb.get_device('Your Device Here')
     push = dev.push_note("Alert!!", "someone is Knockin the Door")
-
 def buzz():
     import sys
     import RPi.GPIO as GPIO
@@ -13,7 +12,7 @@ def buzz():
     GPIO.setmode(GPIO.BOARD)
     GPIO.setup(triggerPIN,GPIO.OUT)
 
-    buzzer = GPIO.PWM(triggerPIN, 1000) # Set frequency to 1 Khz
-    buzzer.start(10) # Set dutycycle to 10
+    buzzer = GPIO.PWM(triggerPIN, 1000) 
+    buzzer.start(10) 
 
     time.sleep(1)
